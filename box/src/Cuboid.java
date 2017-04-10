@@ -16,5 +16,9 @@ public class Cuboid {
     this.b = b;
     this.c = c;
   }
+  public void getSurface () {
+    int surface = 2 * (a * b + b * c + c * a);
+    System.out.println(surface);
+  }
   
 }
