@@ -9,7 +9,7 @@ public class seconds {
     // and returns a new list with every second element from the orignal list
     // example: [1, 2, 3, 4, 5] should produce [2, 4] - print this result
   }
-  public ArrayList<Integer> secondElements (ArrayList<Integer> numbers) {
+  public static ArrayList<Integer> secondElements (ArrayList<Integer> numbers) {
     ArrayList<Integer> secondNumbers = new ArrayList<>();
     int n;
     for (int i = 0; i < numbers.size(); i++) {
