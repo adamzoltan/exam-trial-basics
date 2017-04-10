@@ -20,5 +20,10 @@ public class Cuboid {
     int surface = 2 * (a * b + b * c + c * a);
     System.out.println(surface);
   }
+
+  public void getVolume () {
+    int volume = a * b *c;
+    System.out.println(volume);
+  }
   
 }
